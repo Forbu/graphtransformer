@@ -1,5 +1,5 @@
 [project]
-name = "graphtransformer"
+name = "graphtransformer_digress"
 version = "0.1.0"
 description = "Graph transformer architecture from the digress paper"
 readme = "README.md"
@@ -16,4 +16,4 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["graphtransformer"]
+packages = ["graphtransformer_digress"]

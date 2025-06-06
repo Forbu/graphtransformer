@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from graphtransformer.model import GraphTransformer, PlaceHolder
+from graphtransformer_digress.model import GraphTransformer, PlaceHolder
 
 def test_graph_transformer_forward():
     """
@@ -17,6 +17,7 @@ def test_graph_transformer_forward():
         'edge_ff_dim': 64,
         'global_ff_dim': 256
     }
+    
     output_dims = {'X': 10, 'E': 8, 'y': 6} # Output dims can be different, but same is fine for a basic test
     num_layers = 2
     batch_size = 2
