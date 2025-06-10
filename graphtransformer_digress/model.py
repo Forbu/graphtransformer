@@ -526,7 +526,7 @@ class GraphTransformer(nn.Module):
         X_final = X_out + X_residual
         E_final = (
             E_out + E_residual
-        ) * diag_mask  # Use mask to prevent self-loops in residual
+        )  # Use mask to prevent self-loops in residual
         y_final = y_out + y_residual
 
         # Enforce final edge symmetry

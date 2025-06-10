@@ -1,6 +1,6 @@
 [project]
 name = "graphtransformer_digress"
-version = "0.1.0"
+version = "0.2.0"
 description = "Graph transformer architecture from the digress paper"
 readme = "README.md"
 requires-python = ">=3.10"
